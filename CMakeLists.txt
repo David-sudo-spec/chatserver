@@ -15,9 +15,5 @@ include_directories(${PROJECT_SOURCE_DIR}/include/server/model)
 include_directories(${PROJECT_SOURCE_DIR}/include/server/redis)
 include_directories(${PROJECT_SOURCE_DIR}/thirdparty)
 
-add_executable(cpp_advance_chat_server main.cpp)
-
 # 加载子目录
 add_subdirectory(src)
-add_subdirectory(testjson)
-add_subdirectory(testmuduo)
